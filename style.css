@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Franklin:wght@300;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    background: url(imagem/nathan-fertig-IW5Bm4rB9OA-unsplash.jpg);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    padding-bottom: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.3s
+
+}
+
+nav a:hover {
+    font-size: 18px;
+}
+
+#in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#wemble {
+    font-weight: 900;
+    font-size: 130px;
+    margin-bottom: -170px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 15px;
+    margin-left: -40px;
+    transition-duration: 0.3s;
+}
+
+#wemble:hover {
+    font-size: 140px;
+}
+
+article #assinatura {
+    margin-bottom: -750px;
+}
+
+#assinatura {
+    margin-left: -60px;
+    transition-duration: 0.3s;
+}
+
+#assinatura:hover {
+    width: 810px;
+}
+
+#michael {
+    margin-left: -60px;
+    transition-duration: 0.3s;
+}
+
+#michael:hover {
+    width: 460px;
+}
+
+#scroll {
+    margin-top: 10px;
+    margin-left: -60px;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:rgba(12, 12, 12, 0.466);
+    color: rgb(255, 255, 255);
+    
+}
+
+#info p {
+    padding: 50px 50px;
+    margin: 90px;
+    width: 30%;
+    font-weight: 300;
+    line-height: 40px;
+    height:30vh;
+    border: 2px solid white;
+    transition-duration: 0.3s;
+}
+
+#info p:hover {
+    background-color: white;
+    color: black;
+}
+
+#tour {
+    font-family: 'Anton', sans-serif;
+    height: 20vh;
+    padding-top: 60px;
+    background-color: rgb(12, 12, 12);
+    padding-bottom: 50px;
+}
+
+#tour h1 {
+    font-size: 80px;
+    letter-spacing: 5px;
+    line-height: 90px;
+    transition-duration: 0.3s;
+}
+
+#tour h1:hover {
+    font-size: 90px;
+}
+
+#tour #schedu {
+    font-size: 100px;
+    transition-duration: 0.3s;
+}
+
+#tour #schedu:hover {
+    font-size: 110px;
+}
+
+#tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+    bottom: 20px;
+    padding-bottom: 70px;
+    padding-top: 20px;
+}
+
+#tr p {
+    margin-right: 840px;
+    padding: 30px 50px 90px;
+    width: 30%;
+    font-weight: 300;
+    line-height: 40px;
+    height:30vh;
+    border: 2px solid white;
+    transition-duration: 0.3s;
+   
+}
+
+#tr p:hover {
+    background-color: white;
+    color: black;
+}
+
+#trailer {
+    position: absolute;
+    top: 0px;
+    left: 440px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+#LOGIN {
+    padding: 50px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+}
+
+#LOGIN h1 {
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+#lets {
+    margin-left: 50px;
+    transition-duration: 0.3s;
+}
+
+#lets:hover {
+    font-size: 67px;
+}
+
+input {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    align-items: center;
+}
+
+#confirm{
+    margin-left: 20px;
+}
+
+#confirm:hover {
+    cursor: pointer;
+}
+
+#bad {
+    margin-left: 300px;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+    margin: 10px;
+}
+
+footer p {
+    margin: 10px;
+}
